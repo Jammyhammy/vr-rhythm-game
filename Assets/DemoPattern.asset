@@ -1,0 +1,531 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db49aa969adb1140bb63bb8fa072c1b, type: 3}
+  m_Name: DemoPattern
+  m_EditorClassIdentifier: 
+  rows: 2
+  steps: 64
+  offset: 0
+  timing: 0
+  events:
+  - side: 6
+    hand: 0
+    hitIndex: 0
+    position: {x: 0.2, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 2
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 0
+    hitIndex: 3
+    position: {x: 0.434, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 5
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 6
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 8
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 0
+    hitIndex: 10
+    position: {x: 0.387, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 11
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 12
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 13
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 0
+    hitIndex: 17
+    position: {x: 0.405, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: 21
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 0
+    hitIndex: 26
+    position: {x: 0.241, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 0
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: 3
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 1
+    hitIndex: 4
+    position: {x: 0.602, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 1
+    hitIndex: 8
+    position: {x: 0.8, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: 9
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: 10
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 1
+    hitIndex: 12
+    position: {x: 0.609, y: 0.529}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: 18
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 1
+    hitIndex: 19
+    position: {x: 0.661, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 6
+    hand: 1
+    hitIndex: 27
+    position: {x: 0.639, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}
+  - side: 0
+    hand: 1
+    hitIndex: -1
+    position: {x: 0.5, y: 0.5}

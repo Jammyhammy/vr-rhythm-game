@@ -1,0 +1,19 @@
+stages: 
+  - test
+  - build
+  - deploy
+unit-test:
+  script: D:\"Program Files"\Unity2018-4-12\Editor\Unity.exe -batchmode -projectPath . -runTests -testPlatform editmode -logFile -testResults ./unit-tests.xml
+  stage: test
+  tags:
+    - unity
+unity-build:
+  script: "echo 'Building...'"
+  stage: build
+  tags:
+    - unity
+playstore:
+  script: "echo 'Deploying...'"
+  stage: deploy
+  tags:
+    - unity
