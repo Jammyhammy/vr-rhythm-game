@@ -38,7 +38,9 @@ public class ControllerInputManager : MonoBehaviour
     {
         keyList = new List<BlendShapeKey>(shapeValueDictionary.Keys);
         actionSets = SteamVR_Input.actionSets;
-        if (actionSets == null) { actionSets = SteamVR_Input_References.instance.actionSetObjects; }
+        if (actionSets == null) { 
+            actionSets = SteamVR_Input.GetActionSets(); 
+        }
     }
 
     // Update is called once per frame
@@ -46,7 +48,7 @@ public class ControllerInputManager : MonoBehaviour
     {
         if (blendShapeProxy == null) return;
 
-        var sources = SteamVR_Input_Source.GetUpdateSources();
+        var sources = SteamVR_Input_Source.GetAllSources();
         foreach (var source in sources)
         {
             if (source == SteamVR_Input_Sources.Any) continue;
