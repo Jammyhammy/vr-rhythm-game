@@ -23,6 +23,6 @@ MonoBehaviour:
   ViolentUssage: 1
   SexualUssage: 1
   CommercialUssage: 1
-  OtherPermissionUrl: https://hub.vroid.com/license?allowed_to_use_user=everyone\u0026characterization_allowed_user=everyone\u0026corporate_commercial_use=allow\u0026credit=unnecessary\u0026modification=disallow\u0026personal_commercial_use=profit\u0026redistribution=disallow\u0026sexual_expression=allow\u0026version=1\u0026violent_expression=allow
-  LicenseType: 8
-  OtherLicenseUrl: https://hub.vroid.com/license?allowed_to_use_user=everyone\u0026characterization_allowed_user=everyone\u0026corporate_commercial_use=allow\u0026credit=unnecessary\u0026modification=disallow\u0026personal_commercial_use=profit\u0026redistribution=disallow\u0026sexual_expression=allow\u0026version=1\u0026violent_expression=allow
+  OtherPermissionUrl: 
+  LicenseType: 1
+  OtherLicenseUrl: 
