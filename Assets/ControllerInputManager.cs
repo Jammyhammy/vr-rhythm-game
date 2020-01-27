@@ -11,7 +11,8 @@ public class ControllerInputManager : MonoBehaviour
     public VRMBlendShapeProxy blendShapeProxy;
     public Blinker blinker;
     public AnimMorphTarget animMorphTarget;
-
+    public HumanoidHandPose.HandPose _LeftShape = 0;
+    public HumanoidHandPose.HandPose _RightShape = 0;
     private SteamVR_ActionSet[] actionSets;
 
     // VRMの表情
@@ -46,6 +47,8 @@ public class ControllerInputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _LeftShape = HumanoidHandPose.HandPose.Fist;
+        _RightShape = HumanoidHandPose.HandPose.Fist;
         if (blendShapeProxy == null) return;
 
         var sources = SteamVR_Input_Source.GetAllSources();
@@ -135,10 +138,20 @@ public class ControllerInputManager : MonoBehaviour
                                         if (axis.y > 0) // 左上
                                         {
                                             shapeValueDictionary[GetKey(isLeft ? BlendShapePreset.Blink_L : BlendShapePreset.Blink)] = 1.0f;
+                                            if(isLeft) {
+                                                
+                                            } else {
+                                                
+                                            }
                                         }
                                         else if (axis.y < 0) // 左下
                                         {
                                             shapeValueDictionary[GetKey(isLeft ? BlendShapePreset.Joy : BlendShapePreset.Angry)] = 1.0f;
+                                            if(isLeft) {
+
+                                            } else {
+                                                
+                                            }                                            
                                         }
                                     }
                                     else if (axis.x > 0) // 右
@@ -146,10 +159,20 @@ public class ControllerInputManager : MonoBehaviour
                                         if (axis.y > 0) // 右上
                                         {
                                             shapeValueDictionary[isLeft ? GetKey("><") : GetKey(BlendShapePreset.Blink_R)] = 1.0f;
+                                            if(isLeft) {
+
+                                            } else {
+                                                
+                                            }                                            
                                         }
                                         else if (axis.y < 0) // 右下
                                         {
                                             shapeValueDictionary[GetKey(isLeft ? BlendShapePreset.Sorrow : BlendShapePreset.Fun)] = 1.0f;
+                                            if(isLeft) {
+
+                                            } else {
+                                                
+                                            }                                            
                                         }
                                     }
 
